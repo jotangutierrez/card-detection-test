@@ -2,6 +2,10 @@
   "name": "franchise_detector",
   "version": "0.1.0",
   "private": true,
+  "resolutions": {
+    "babel-jest": "24.9.0",
+    "jest": "24.9.0"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
@@ -30,5 +34,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.10.2",
+    "babel-jest": "^26.0.1",
+    "enzyme": "^3.11.0",
+    "jest": "^26.0.1"
   }
 }
