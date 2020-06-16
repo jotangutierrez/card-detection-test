@@ -2,6 +2,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 **For reviewers:** _Web functionality is provided for demonstration purposes, maybe a `.env` file is required currently to run properly Jest-Babel-React, due to a version mismatch between create-react-app and jest. Please refer to https://github.com/facebook/create-react-app/issues/7169 for more information about this issue. Credit card detector function is located in Services directory, and test suite in `__tests__` directory inside `src`._
 
+![](demo.gif)
+
 ## Available Scripts
 
 In the project directory, you can run:
