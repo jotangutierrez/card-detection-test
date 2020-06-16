@@ -1,5 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+**For reviewers:** _Web functionality is provided for demonstration purposes, maybe a `.env` file is required currently to run properly Jest-Babel-React, due to a version mismatch between create-react-app and jest. Please refer to https://github.com/facebook/create-react-app/issues/7169 for more information about thi issue. Credit card detector function is located in Services directory, and test suite in `__tests__` directory inside `src`._
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -13,6 +15,7 @@ The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
 
 ### `yarn test`
+- **Dear reviewers:** Remember use `a` option after run this command to run all test suite
 
 Launches the test runner in the interactive watch mode.<br />
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.

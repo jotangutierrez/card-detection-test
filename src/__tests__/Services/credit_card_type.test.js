@@ -1,4 +1,4 @@
-import creditCardType from "../../src/Services/card_type_detector";
+import creditCardType from "../../Services/card_type_detector";
 
 test("Filter function", () => {
   let TEST_CASES = [

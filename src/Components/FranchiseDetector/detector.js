@@ -18,7 +18,7 @@ const Detector = () => {
 
   return (
       <>
-        <input id={"cardNumber"} onChange={getFranchise} placeholder={"Número de tarjeta"}/>
+        <input id={"cardNumber"} onChange={getFranchise} placeholder={"Card number"}/>
         {/*<h1>{cardNumber}</h1>*/}
         <h1 id={"franchiseName"}>{franchise}</h1>
       </>
